@@ -1,0 +1,14 @@
+@import 'widgets';
+@import 'dashboard';
+@import 'listing';
+
+body {
+  background: #E9E9E9 url(../images/bg.jpg) repeat 0 0;
+}
+
+.chart-holder {
+  width: 100%;
+  height: 250px;
+}
+
+img.movie-xsmall { width:46px; height:69px; }

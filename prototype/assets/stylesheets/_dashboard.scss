@@ -1,0 +1,117 @@
+.stats {
+  width: 100%;
+  display: table;
+  padding: 0 0 0 10px;
+  margin-top: .5em;
+  margin-bottom: 1.9em;
+}
+
+.stats .stat {
+  display: table-cell;
+  width: 40%;
+  vertical-align: top;
+
+  font-size: 12px;
+  font-weight: bold;
+  color: #999;
+}
+
+.stat-value {
+  display: block;
+  margin-bottom: .55em;
+
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  color: #444;
+}
+
+.stat-time {
+  text-align: center;
+  margin-top:16px;
+}
+
+.stat-time .stat-value {
+  color: #336699;
+  font-size: 40px;
+}
+
+#donut-chart {
+  height: 150px;
+  margin-right:24px;
+}
+
+.stats-half {
+  width: 50%;
+  margin:0;
+  padding:0;
+  float:left;
+  font-size: 12px;
+  font-weight: bold;
+  color: #999;
+}
+
+.stats-half.left {
+  width: 60%;
+}
+
+.stats-half.right {
+  width: 40%;
+}
+
+.stats-summary {
+  margin-top:20px;
+}
+
+#stat-progress-bar {
+  margin-top:36px;
+  text-align:center;
+  .progress {
+    margin-bottom:2px;
+  }
+  .stat-value {
+    font-size:24px;
+  }
+
+}
+
+ul.dashboard-list {
+  list-style:none;
+  list-style-image: none;
+  margin-left:0;
+  li {
+    clear:both;
+    margin-bottom:20px;
+    img {
+      float:left;
+      padding-right:8px;
+      margin-bottom:20px;
+      width:68px;
+      height:100px;
+    }
+    .ratings, .download {
+      font-size:11px;
+    }
+    img.music-xsmall {
+      width:100px;
+      height:100px;
+    }
+  }
+
+}
+
+.tiny.fresh {
+  background-position: -256px -144px;
+}
+
+.icon.tiny {
+  width: 16px;
+  height: 16px;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: text-bottom;
+  background:
+  transparent url('../images/rt_icons.png') no-repeat -312px -160px;
+}

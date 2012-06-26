@@ -1,0 +1,53 @@
+ul.full-list {
+  list-style:none;
+  list-style-image: none;
+  margin-left:0;
+  li {
+    float:left;
+    display:inline;
+    margin:0 0 20px 0;
+    img {
+      float:left;
+      padding-right:8px;
+      margin-bottom:20px;
+      width:68px;
+      height:100px;
+    }
+    .ratings, .download {
+      font-size:11px;
+    }
+    img.music-xsmall {
+      width:100px;
+      height:100px;
+    }
+  }
+}
+
+ul.small-list {
+  list-style:none;
+  list-style-image: none;
+  margin-left:0;
+  li {
+    float:left;
+    display:inline;
+    margin:0 -10px 20px 10px;
+    width:33%;
+    img {
+      padding-right:8px;
+      margin-bottom:20px;
+      width:68px;
+      height:100px;
+    }
+    .ratings, .download {
+      font-size:11px;
+    }
+    img.music-xsmall {
+      width:100px;
+      height:100px;
+    }
+  }
+}
+
+div.btn-sort-group.btn-group {
+  padding:9px 6px 0 0;
+}
