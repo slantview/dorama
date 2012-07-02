@@ -3,7 +3,7 @@
 @import 'listing';
 
 body {
-  background: #E9E9E9 url(../images/bg.jpg) repeat 0 0;
+  background: #E9E9E9 url(../images/bg2.png) repeat 0 0;
 }
 
 .chart-holder {
@@ -11,4 +11,12 @@ body {
   height: 250px;
 }
 
-img.movie-xsmall { width:46px; height:69px; }
+img.movie-xsmall {
+  width:46px;
+  height:69px;
+}
+
+input#appendedInputButtons {
+  width:80%;
+  margin-left:5%;
+}

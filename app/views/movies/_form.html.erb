@@ -1,0 +1,25 @@
+<div class="span8 offset">
+  <div class="widget">
+    <div class="widget-header">
+      <i class="icon-signal"></i>
+      <h3>Add Movie</h3>
+    </div> <!-- /widget-header -->
+    <div class="widget-content">
+      <%= semantic_form_for @movie, :html => { :class => 'form-horizontal' } do |f| %>
+        <% f.inputs do %>
+        <fieldset>
+          <div class="control-group">
+            <%= f.input :title, :label => 'Title', :input_html => { :class => "span6", :id => "input-movie-subject" }  %>
+          </div>
+          <div class="control-group">
+            <%= f.input :imdb, :label => 'IMDB ID', :input_html => { :class => "span6", :id => "input-movie-imdbid" }  %>
+          </div>
+          <%= f.actions do %>
+            <%= f.action :submit, :as => :button, :class => "btn btn-primary" %>
+          <% end %>
+        </fieldset>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>

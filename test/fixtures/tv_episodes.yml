@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  show_id: 1
+  title: MyString
+  tvdb: MyString
+  season: 1
+  episode: 1
+  description: MyText
+  hasnfo: false
+  hastbn: false
+  airdate: 2012-07-01 21:01:53
+  status: 1
+  location: MyString
+
+two:
+  show_id: 1
+  title: MyString
+  tvdb: MyString
+  season: 1
+  episode: 1
+  description: MyText
+  hasnfo: false
+  hastbn: false
+  airdate: 2012-07-01 21:01:53
+  status: 1
+  location: MyString

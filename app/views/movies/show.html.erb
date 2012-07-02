@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<div class="widget">
+  <div class="widget-header">
+    <i class="icon-film"></i>
+    <h3><%= @movie.title %></h3>
+    <%= link_to "Edit", edit_movie(:id => @movie.id), { :class => "btn btn-mini" } %>
+  </div> <!-- /widget-header -->
+  <div class="widget-content">
+	<div class="movie-data">
+	  <span class="badge badge-info"><%= @movie.imdb %></span>
+	</div>
+	<hr>
+	<div class="movie-body">
+	  <%= @movie.description %>
+	</div>
+  </div><!--/widget-content -->
+</div>

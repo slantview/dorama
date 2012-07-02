@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  start_year: 1
+  end_year: 1
+  tvdb: MyString
+  network_id: 1
+  genre_id: 1
+  quality_id: 1
+  air_date: MyString
+  runtime: 1
+  status: 1
+  season_folders: 1
+  paused: 1
+  location: MyString
+
+two:
+  title: MyString
+  start_year: 1
+  end_year: 1
+  tvdb: MyString
+  network_id: 1
+  genre_id: 1
+  quality_id: 1
+  air_date: MyString
+  runtime: 1
+  status: 1
+  season_folders: 1
+  paused: 1
+  location: MyString

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  year: 1
+  imdb: MyString
+  status: 1
+  quality_id: 1
+  moviedb: MyString
+
+two:
+  title: MyString
+  year: 1
+  imdb: MyString
+  status: 1
+  quality_id: 1
+  moviedb: MyString
